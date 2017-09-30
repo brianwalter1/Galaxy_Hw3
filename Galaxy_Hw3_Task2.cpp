@@ -7,8 +7,6 @@ using namespace std;
 
 // Constants
 
-// Prototypes
-
 // Classes
 class serial{
 private:
@@ -22,13 +20,25 @@ public:
     void showSerial();
 };
 int serial::counter = 0;
+
+// Prototypes
+void displaySerial(serial);
+
 // Main Program Program
 int main(void) {
-    
+    serial alpha, beta, gamma;
+
+    displaySerial(alpha);
+    displaySerial(beta);
+    displaySerial(gamma);
 
     return 0;
 }
 //Function Definitions
 void serial::showSerial() {
-    cout << serialNumber << endl;
+    cout << "Object Number: " << serialNumber << endl;
+}
+
+void displaySerial(serial s1){
+    s1.showSerial();
 }
