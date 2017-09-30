@@ -9,6 +9,16 @@ using namespace std;
 
 // Prototypes
 
+// Classes
+class date{
+public:
+    int month;
+    int day;
+    int year;
+    void getDate();
+    void showDate();
+};
+
 // Main Program Program
 int main(void) {
 
