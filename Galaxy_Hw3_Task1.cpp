@@ -21,7 +21,18 @@ public:
 
 // Main Program Program
 int main(void) {
+    //Create our date classes
+    date date1, date2;
 
+    //Get the dates
+    date1.getDate();
+    date2.getDate();
+
+    //Show the dates
+    cout << "\ndate1: ";
+    date1.showDate();
+    cout << "date2: ";
+    date2.showDate();
 
     return 0;
 
@@ -47,4 +58,7 @@ void date::getDate() {
 
 void date::showDate() {
     cout << month << "/" << day << "/" << year << endl;
+
+    //Return control of the program
+    return;
 }
