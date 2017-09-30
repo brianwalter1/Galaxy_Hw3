@@ -30,3 +30,6 @@ int main(void) {
 
 }
 // Function Definitions
+void serial::showSerial() {
+    cout  << serial;
+}
