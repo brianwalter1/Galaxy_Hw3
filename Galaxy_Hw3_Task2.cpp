@@ -27,9 +27,8 @@ int main(void) {
     
 
     return 0;
-
 }
-// Function Definitions
+//Function Definitions
 void serial::showSerial() {
-    cout  << serial;
+    cout << serialNumber << endl;
 }
