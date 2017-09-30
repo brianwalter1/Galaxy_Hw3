@@ -12,6 +12,7 @@ using namespace std;
 // Classes
 class date{
 public:
+    date(){};
     int month;
     int day;
     int year;

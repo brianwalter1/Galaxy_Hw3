@@ -9,6 +9,19 @@ using namespace std;
 
 // Prototypes
 
+// Classes
+class serial{
+private:
+    int serialNumber;
+    static int counter;
+public:
+    serial(){
+        counter++;
+        serialNumber = counter;
+    };
+    void showSerial();
+};
+int serial::counter = 0;
 // Main Program Program
 int main(void) {
 
